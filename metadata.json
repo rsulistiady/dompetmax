@@ -1,0 +1,6 @@
+{
+  "name": "DompetMax",
+  "description": "Catat pengeluaran, pemasukan, tagihan berulang, dan portfolio investasi (deposito, crypto, reksa dana) dengan mudah, aman, dan offline-first.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
