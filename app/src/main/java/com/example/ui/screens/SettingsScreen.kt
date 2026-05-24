@@ -236,9 +236,9 @@ fun SettingsScreen(
                             )
                             Text(
                                 text = if (lang == "ID") {
-                                    "Terima pengingat harian & evaluasi bulanan via Google Cloud Messaging."
+                                    "Kelola pengingat lokal untuk kebiasaan pencatatan dan evaluasi bulanan."
                                 } else {
-                                    "Receive automated weekly networth metrics direct via secure Firebase console."
+                                    "Manage local reminders for finance tracking habits and monthly review."
                                 },
                                 fontSize = 11.sp,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant

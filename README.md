@@ -47,7 +47,7 @@ app/src/main/java/com/example/
 
 Open the project in Android Studio, let Gradle sync, then run the app on an emulator or Android device.
 
-The app includes `.env.example` for future secret configuration. Do not commit real API keys or keystore passwords.
+No API keys are required for the current offline-first build. Do not commit real keystores, service-account files, API keys, or signing passwords.
 
 ## Build Status
 
@@ -65,6 +65,7 @@ Recommended next hardening:
 - Run `./gradlew assembleDebug`
 - Add screenshots from emulator or Roborazzi outputs
 - Rename base package from `com.example` to a production namespace such as `com.robby.dompetmax`
+- Replace placeholder privacy contact details before Play Store release
 
 ## Privacy
 

@@ -26,7 +26,7 @@ Aplikasi ini diunduh melalui Google Play Store yang mungkin mengumpulkan informa
 Aplikasi kami tidak secara aktif mengumpulkan informasi dari anak-anak di bawah usia 13 tahun, karena tidak ada data yang ditransmisikan secara online kepada kami.
 
 ### 6. Kontak Hubungi Kami
-Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, Anda dapat menghubungi kami melalui email di: [support@dompetmax.com] (Ganti dengan email pengembang Anda).
+Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini, gunakan halaman repository GitHub DompetMax atau kontak resmi yang akan dicantumkan pada listing aplikasi saat rilis.
 
 ---
 
@@ -50,4 +50,4 @@ This application is distributed through the Google Play Store, which may collect
 Our application does not actively collect any information from children under the age of 13, as no data is ever transmitted online to us.
 
 ### 6. Contact Us
-If you have any questions regarding this Privacy Policy, you may contact us via email at: [support@dompetmax.com] (Replace with your developer email).
+If you have any questions regarding this Privacy Policy, use the DompetMax GitHub repository page or the official contact channel that will be listed with the app release.
