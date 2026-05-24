@@ -1,21 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# DompetMax
 
-# Run and deploy your AI Studio app
+Offline-first personal finance app for tracking income, expenses, recurring bills, and investment portfolios from an Android device.
 
-This contains everything you need to run your app locally.
+## Product Focus
 
-View your app in AI Studio: https://ai.studio/apps/0d946ad3-dbdd-48da-b0bc-2d8371126a35
+DompetMax is designed as a private, local-first finance companion for people who want one place to monitor daily cash flow, upcoming subscriptions, and portfolio positions such as deposits, crypto, mutual funds, and gold.
+
+## Core Features
+
+- Dashboard overview for personal finance signals
+- Income and expense tracking
+- Recurring bill and subscription management
+- Investment portfolio tracking
+- Local Room database persistence
+- Light/dark/system theme setting
+- Multi-language UI utility layer
+- Offline-first Android experience
+
+## Tech Stack
+
+- Kotlin
+- Android Jetpack Compose
+- Material 3
+- Room Database
+- DataStore Preferences
+- ViewModel + Kotlin Coroutines
+- KSP
+- Robolectric / Roborazzi test dependencies
+
+## Project Structure
+
+```text
+app/src/main/java/com/example/
+  data/
+    local/        Room database and DAOs
+    model/        Transaction, subscription, and investment entities
+    repository/   Finance repository layer
+  ui/
+    screens/      Dashboard, transactions, subscriptions, investments, settings
+    theme/        Compose theme tokens
+    util/         Translation helpers
+    viewmodel/    FinanceViewModel state holder
+```
 
 ## Run Locally
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+Open the project in Android Studio, let Gradle sync, then run the app on an emulator or Android device.
 
+The app includes `.env.example` for future secret configuration. Do not commit real API keys or keystore passwords.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## Build Status
+
+Current repository validation:
+
+- Source structure inspected
+- Android app module detected
+- Compose, Room, DataStore, and testing dependencies detected
+- Local build not executed in this environment because the repository does not currently include `gradlew`, `gradlew.bat`, or `gradle-wrapper.jar`, and system Gradle is not installed
+
+Recommended next hardening:
+
+- Add the full Gradle wrapper files
+- Run `./gradlew test`
+- Run `./gradlew assembleDebug`
+- Add screenshots from emulator or Roborazzi outputs
+- Rename base package from `com.example` to a production namespace such as `com.robby.dompetmax`
+
+## Privacy
+
+See [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
