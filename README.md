@@ -73,3 +73,9 @@ See:
 
 - [Privacy Policy Markdown](PRIVACY_POLICY.md)
 - [Privacy Policy Web Page](privacy-policy.html)
+
+## License
+
+Copyright (c) 2026 Robby Sulistiady. All rights reserved.
+
+This repository is public for application documentation, privacy policy hosting, and portfolio reference. The source code is not licensed for reuse, redistribution, or commercial use without written permission.
