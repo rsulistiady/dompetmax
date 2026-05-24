@@ -69,4 +69,7 @@ Recommended next hardening:
 
 ## Privacy
 
-See [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
+See:
+
+- [Privacy Policy Markdown](PRIVACY_POLICY.md)
+- [Privacy Policy Web Page](privacy-policy.html)
